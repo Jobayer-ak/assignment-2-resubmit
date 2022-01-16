@@ -1,0 +1,132 @@
+@media only screen and (max-width:688px) {
+    
+    /* Header section */
+    header .container{
+        flex-direction: column;
+        align-items: start;
+    }
+    header .logo-img{
+        padding-left: 10px;
+    }
+    .navigation-menu{
+        flex-direction: column;
+    }
+
+    /* Influencer Section */
+    
+    #influencer-camera{
+        flex-direction: column-reverse;
+    }
+    
+    .influencer-img img{
+        width: 200px;
+    }
+    .influencer-img:hover .main-camera-img{
+        transform: rotate(30deg);
+    }
+    .main-camera-img{
+        position: absolute;
+        top: 30px;
+        z-index: 1;
+        width: 220px;
+        height: 214px; 
+        transition: transform 0.3s ease-in;
+    }
+    .influencer-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px 0 10px;
+    }
+    .influencer-desc h1{
+        font-size: 36px;
+    }
+    .link-button{
+        margin-bottom: 12px;
+    }
+    /* Brand Logos */
+    .brand-logos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 69px;
+        padding:0 10px 0 10px;
+        border: 0;
+    }
+    /* Popular Section */
+    #products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* Feature Products */
+    #featured-products{
+       flex-direction: column;
+    }
+    .feature-img img{
+        width: 365px;
+    }
+    .feature-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px 0 10px; 
+    }
+    .feature-desc h3{
+        font-size: 30px
+    }
+    .link-button{
+        margin-bottom: 12px;
+    }
+    
+}
+@media only screen and (min-width:689px) and (max-width: 992px) {
+    /* Header section */
+    
+    
+    /* Influencer Section */
+    
+    #influencer-camera{
+        flex-direction: column-reverse;
+    }
+    
+    .influencer-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px 0 10px;
+    }
+    .link-button{
+        margin-bottom: 12px;
+    }
+    /* Brand Logos */
+    .brand-logos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 69px;
+        padding:0 10px 0 10px;
+        border: 0;
+    }
+    /* Popular Section */
+    #products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* Feature Products */
+    #featured-products{
+       flex-direction: column;
+    }
+    .feature-img img{
+        width: 970px;
+    }
+    .feature-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px 0 10px;
+    }
+    
+    
+}
